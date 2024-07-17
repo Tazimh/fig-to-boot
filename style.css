@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/*-------------------------------------
+------- Global Css Started-------------
+--------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1240px !important;
+    margin: 0 auto;
+}
+Body {
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+}
+
+
+/* ------Header Section Css Started------- */
+.navbar{
+    --bs-bg-opacity: 1;
+    background-color: #F0FFF0 !important;
+}
+
+    .nav-item .nav-link {
+
+        font-size: 16px;
+        margin-right: 40px;
+        color: black;
+    }
+
+    .sign-in  {
+        font-family: "Roboto", sans-serif;
+        background: #21B573;
+        border: 1px solid #21B573;
+        border-radius: 33px;
+        padding-left: 35px;
+        /* padding-right: 2px; */
+        padding-top: 2px;
+        padding-bottom: 2px;
+        transition: 0.7s;
+    }
+    .sign-in:hover {
+        font-family: "Roboto", sans-serif;
+        color: #224f3b !important;
+        background: #7ae9b7;
+        border: 1px solid #7ae9b7;
+        transition: 0.7s;
+       
+    }
+
+    .sign-c {
+        color: white !important;
+    }
+
+  .banner-inner{
+    display: flex;
+  }  
+
+  /* Banner section css start */
+
+  .banner-section{
+    width: 100%;
+    background-color: #F0FFF0 !important;
+    padding: 45px 0px 14px;
+  }
+  /* .banner-section{
+    margin-bottom: 50px;
+  } */
+.banner-section .row{
+    margin-bottom: 50px;
+
+}
+.content {
+    margin-top: 62px;
+}
+.content .sub-title{
+    color: #FD511A  !important;
+    margin-top: -5px;
+}
+.content .heading{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    width: 62%;
+    margin-bottom: 30px;
+    margin-top: -5px;
+
+}
+.content .heading span{
+    color:#21B573 ;
+}
+.content .para{
+    width: 64%;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: -15px;
+    margin-bottom: 34px;
+}
+.get-start a{
+    font-family: "Roboto", sans-serif;
+    background: #21B573;
+    border: 1px solid #000000;
+    border-radius: 33px;
+    padding: 12px 36px ;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+.get-start :hover{
+    font-family: "Roboto", sans-serif;
+    background: #7ae9b7;
+    color: #224f3b;
+    border: 1px solid #21B573;
+    padding: 12px 36px ;
+    transition: 0.4s;
+    }
+
+   .get-start a {
+        margin-top: 20px;
+    }
+    .banner-pic img{
+        width: 554px;
+        margin-left: 35px;
+        
+    }
+    /* featured-section css here */
+    
+    .featured-section{
+        text-align: center;
+        padding: 50px 0px 60px;  
+    }
+    .featured-section .f-cart{
+        background: #F8FFFB;
+        text-align: center;
+        padding: 50px 0px 30px;
+        margin: 0px 5px;
+        border-radius: 10px;
+        transition: 0.7s;
+ 
+    }
+    .featured-section .f-cart:hover{
+        background-color: white;
+        box-shadow: 0px 20px 40px 0px #0000001A;
+        transition: 0.7s;
+    }
+    .featured-section .f-cart h5{
+        text-align: center;
+        margin: 30px 0px 5px;
+    }
+    .featured-section .f-cart p{
+        text-align: center;
+        
+    }
+    /* online-section css */
+
+    .online-section{
+        width: 100%;
+        padding: 40px 50px;
+      }
+      .online-section h2 {
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 60px;
+      }
+      .online-section .content h4{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+    }
+    .online-section .content p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .content .buy-courses a{
+    font-family: "Roboto", sans-serif;
+    background: #21B573;
+    border: 1px solid #21B573 ;
+    border-radius: 33px;
+    padding: 8px 28px ;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    }
+    .content .buy-courses a:hover{
+        font-family: "Roboto", sans-serif;
+        background: #39fca4;
+        border: 1px solid #39fca4;
+        border-radius: 33px;
+        padding: 8px 28px ;
+        text-decoration: none;
+        color: #edfff7;
+        transition: 0.4s;
+        }
+
+    .c-foot{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .c-foot span{
+
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .online-inner{
+        box-shadow: 0px 10px 40px 0px #0000001A;
+        padding: 18px;
+        border-radius: 18px;
+    } 
+
+    /* testimonial section css */
+    .testimonal-section {
+        width: 100%;
+        padding: 35px 0px 90px;
+    }
+    .testimonal-section h2 {
+        font-size: 36px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .testimonal-section .content p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 36px;
+        margin-top: -60px;
+        width: 63%;
+        margin-right: 60px;
+    }
+    .testimonal-section .image-pic img{
+        margin-left: 250px;
+    }
+    /* footer section css */
+    .footer-section{
+        background: #282531;
+        color: white;
+        padding: 50px 0px 15px;
+    }
+    .copy{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: #CDCDCD;
+        /* position: absolute;
+        left: 630px;
+        top: 2328px; */
+        padding-top: 70px;
+    }
+    .footer-section .para p{
+        width: 70%;
+        margin-left: 50px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .footer-section .mara ul li{
+      list-style-type: none;
+      margin-bottom: 10px;
+      
+    }
+    .footer-section .lara ul li{
+        list-style-type: none;
+        margin-bottom: 10px;
+        
+      }
+      .footer-section .sara ul li{
+        list-style-type: none;
+        margin-bottom: 10px;
+        
+      }
